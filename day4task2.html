@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">rowspan</h1>
+    <table align="center" style="width: 80%;;">
+        <tr>
+            <th>Team</th>
+            <th>Player</th>
+            <th colspan="2">Statistics</th>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td rowspan="2">Team A</td>
+            <td>Player 1</td>
+            <td>Goals:4</td>
+            <td>Assiste:7</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>Player 2</td>
+            <td>Goals:6</td>
+            <td>Assists:6</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Team B</td>
+            <td>Player 3</td>
+            <td>Goals:5</td>
+            <td>Assists:6</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td>Player 4</td>
+            <td>Goals:3</td>
+            <td>Assists:8</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
